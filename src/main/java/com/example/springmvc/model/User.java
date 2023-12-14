@@ -2,6 +2,7 @@ package com.example.springmvc.model;
 
 import lombok.Value;
 
+//@Value
 @Value
 public class User {
     Long id;
@@ -13,4 +14,6 @@ public class User {
     Long department_id;
     Long role_id;
     Long del;
+
+    String department_name;
 }
